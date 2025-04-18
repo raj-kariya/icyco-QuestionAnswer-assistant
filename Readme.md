@@ -1,3 +1,9 @@
+# Icyco
+Meet Icyco, your friendly AI assistant ready to scoop up answers to all your Icyco ice cream queries! 🍦 This console-based AI-powered Question Answering system uses Retrieval-Augmented Generation (RAG) to provide accurate information on flavors, services, events, policies, and more, all based on Icyco's internal documents. Powered by Google Generative AI, LangChain, and Pinecone for fast and relevant results.
+
+# High Level Design Overview of AI Assistant 
+![High_Level_Design_Assistant](https://github.com/user-attachments/assets/b682b835-522a-402b-8ed7-fa5c70045c23)
+
 # QA assistant for Icyco
 
 Icyco QA Assistant is an console based AI-powered Question Answering system built for the fictional ice cream shop . It uses Retrieval-Augmented Generation (RAG) to provide accurate answers based on company documents like policies, product information, and FAQs.
@@ -54,27 +60,3 @@ python app.py
 
 ## Demo
 
-```
-You: Hi!
-Assistant: Hi there! How can I make your day sweeter with some Icyco info? 🍦
-
-
-You: What are the flavors icyco offers?
-Assistant: We offer a wide range of flavors here at Icyco, including regular, gelato, sorbet, frozen yogurt, non-dairy, and vegan! 🍦 You can also browse our products by visiting https://icyco.vercel.app/products!
-
-
-You: What about your delivery hours?
-Assistant: We deliver ice cream every day from 10 am to 11 pm. Availability may vary by location.
-
-
-You: Do you share user information for third parties?
-Assistant: We do not sell your personal information. However, we may share your information with third-party service providers who assist with payment processing, delivery services, or website hosting. We may also share your information if required by law, such as in response to a court order or government request, and in the event of a merger or acquisition.
-
-
-You: Who is the Owner of icyco?
-Assistant: That’s a great question about Icyco, but I couldn’t find the answer in the info I have. You might want to reach out to Icyco directly for the most up-to-date details!
-
-
-You: Exit
-Assistant: Bye
-```
